@@ -1,0 +1,225 @@
+*{
+    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
+    background-color: #1A1A1D;
+    color: white
+}
+
+* {
+     /* Стилизация горизонтального скроллбара */
+    scrollbar-width: thin; /* Толщина скроллбара */
+    scrollbar-color: #C3073F transparent; /* Цвет ползунка и трека (track) скроллбара */
+}
+*::-webkit-scrollbar {
+    width: 10px; /* Ширина скроллбара для браузеров на основе WebKit (Chrome, Safari) */
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent; /* Цвет трека скроллбара */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #888; /* Цвет ползунка скроллбара */
+    border-radius: 10px; /* Скругление углов ползунка */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Цвет ползунка при наведении */
+}
+
+.H-pc{
+    height: 100px;
+    width: 200px;
+}
+
+.AdminPanel{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*PC store page*/
+.PCStore{
+    margin: 25px;
+    overflow-y: auto;
+    height: 500px;
+}
+
+/*PC page*/
+.AllReviews{
+    height: 180px;
+    overflow-y: auto;
+}
+.PCPage{
+    padding: 20px;
+    margin: 5px 25px;
+}
+.PC_info{
+    display: flex;
+}
+.PC_info_block{
+    width: 400px;
+    padding: 0 50px 0 0;
+    margin: 0 50px 0 0;
+}
+
+.PC_info_block p {
+    font-weight: bold;
+    width: 150px;
+    margin: 5px 5px 5px 0;
+}
+.PC_info_block i {
+    margin: 5px 5px 5px 0;
+}
+
+.Reviews_Block{
+    padding: 20px 0;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.Reviews{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Review{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.Reviews_Block input{
+    width: 100%;
+    height: 25px;
+    margin: 15px 1px;
+}
+/* COMPONENTS PAGE */
+.ComponentsPage{
+    display: flex;
+}
+
+.ComponentsMenu{
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    padding: 5px 20px;
+    height: 180px;
+
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.ComponentsMenu button{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.ComponentsStoreObjects{
+    width: 1200px;
+    height: 500px;
+    margin: 0 25px;
+    padding: 15px;
+    border: 1px solid white;
+
+    overflow-y: auto;
+}
+
+.ComponentStoreObject{
+    display: flex;
+    border: 1px solid white;
+    margin: 15px 0;
+    padding: 15px;
+    justify-content: space-between;
+}
+.ComponentStoreObject div{
+    margin: 0 15px 0 0;
+    width: 700px;
+}
+
+/* COMPARE PAGE*/
+.Wrap{
+    padding: 5px;
+    margin: 25px 55px;
+}
+
+.CompareMenu{
+
+}
+
+.ObjectList{
+    height: 47px;
+    display: flex;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid white;
+
+    
+    flex-wrap: nowrap; /* Запретить перенос элементов на новую строку */
+    overflow-x: auto; /* Включить горизонтальную прокрутку, если содержимое не помещается */
+    white-space: nowrap; /* Запретить перенос текста на новую строку */
+
+    scrollbar-color: #c3073f85 transparent; 
+}
+
+.CompareObject{
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.CompareTable{
+    margin: 25px 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.CompareTable table{
+    margin: auto;
+}
+
+.CompareTable tr, td{
+    height: 20px;
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 0;
+    border: 1px solid white;
+}
+
+.CompareTable tr, td:first-child{
+    height: 20px;
+    width: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 25px 0;
+    border: 1px solid white;
+}
+
+/*Banned Page*/
+.Ban{
+    margin: 200px 0 0 0;
+    text-align: center;
+}
+
+/*CHAT*/
+.HelpChat{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 20px;
+    margin: 25px 0;
+    height: 180px;
+
+    border: 1px solid white;
+    border-radius: 3px;
+
+    overflow-y: auto;
+}
+
+.ChatWrap{
+    padding: 5px;
+    margin: 25px 55px;
+}
+
+.ChatWrap input{
+    width: 100%;
+    height: 25px;
+    margin: 15px 0;
+}

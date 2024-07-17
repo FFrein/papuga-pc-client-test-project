@@ -1,0 +1,37 @@
+.Motherboard_Form {
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Motherboard_Form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.Motherboard_Form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.Motherboard_Form button {
+    background-color: #C3073F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px 15px 0;
+}
+
+.Motherboard_Form button:hover {
+    background-color: #6F2232;
+}

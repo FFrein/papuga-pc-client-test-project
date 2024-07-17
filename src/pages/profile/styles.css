@@ -1,0 +1,108 @@
+.Page{
+    margin: 50px;
+    padding: 25px;
+    /*background-color: #FF7100;*/
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.TestList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Profile{
+    display:flex;
+}
+
+.ProfileButtons button{
+    margin: 0 5px 15px 5px;
+    width: 170px;
+}
+
+.ProfileButtons{
+    height: 137px;
+}
+
+.UserPCs{
+    width: 60%;
+    min-height: 150px;
+    display: flex;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+
+    flex-wrap: nowrap; /* Запретить перенос элементов на новую строку */
+    overflow-x: auto; /* Включить горизонтальную прокрутку, если содержимое не помещается */
+    white-space: nowrap; /* Запретить перенос текста на новую строку */
+}
+
+.PC_Config{
+    width: 200px;
+    padding:  0 10px 0 0;
+    flex-shrink: 0; /* Запретить уменьшение размера элемента */
+    margin-right: 10px; /* Добавить отступ между элементами */
+}
+
+.Profile button{
+    float: right;
+}
+
+.Component{
+    margin: auto;
+    display: block;
+    padding:  15px 50px 15px 50px;
+}
+
+* Button {
+    background-color: #C3073F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px 0 0;
+}
+
+* Button:hover {
+    background-color: #6F2232;
+}
+
+.MiddleMenu{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ReviewsBlock{
+    position: relative;
+    /*background-color: #FF7100;*/
+    padding: 10px;
+    width: 360px;
+    border-radius: 3px;
+    border: 2px solid rgba(255, 255, 255, 0.792);
+}
+
+.ReviewsBlock_Buttons{
+    
+}
+
+.PageNumber{
+    position: absolute;
+    bottom: 0;
+}
+
+.UserReviews{
+    margin: 10px 0 0 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.UserReview{
+    margin: 10px 0 15px 0;
+    height: 470px;
+    overflow-y: auto; /* Включить вертикальную прокрутку, если содержимое не помещается */
+}

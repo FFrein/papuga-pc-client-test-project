@@ -1,0 +1,20 @@
+.UserPCs_Wrap{
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.PC_Name{
+    margin: 3px 0 2px 0
+}
+
+.PC_Author{
+    color: gray;
+    font-size: 10px;
+}
+
+.PC_Components{
+    font-size: 12px;
+}

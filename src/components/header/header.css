@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: red solid 0px;
+}
+.Header{
+    display: flex;
+    /*background-color: #FBFE00;*/
+}
+.H-Logo{
+    width: 4%;  
+}
+.H-Name{
+    margin: auto;
+}
+.LogoName{
+    margin: auto 0 auto 0;
+}
+.Navigation{
+    margin: auto 15px auto auto;
+}
+
+.NavLink{
+    margin: 0 15px 0 0;
+    /*color: black;*/ /* Чёрные буквы */
+    text-decoration: none; /* Без подчёркивания */
+    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
+}

@@ -1,0 +1,38 @@
+/* styles.css */
+
+.Login_Form {
+    max-width: 400px;
+    margin: 5% auto auto auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.Login_Form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.Login_Form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}   
+
+.Login_Form button {
+    background-color: #C3073F;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px 0 0;
+}
+
+.Login_Form button:hover {
+    background-color: #6F2232;
+}
